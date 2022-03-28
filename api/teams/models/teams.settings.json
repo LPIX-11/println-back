@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "teams",
+  "info": {
+    "name": "teams",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "staff": {
+      "type": "integer"
+    },
+    "code": {
+      "type": "string"
+    },
+    "meps": {
+      "collection": "mep"
+    }
+  }
+}

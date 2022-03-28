@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "meps",
+  "info": {
+    "name": "MEP"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "release_date": {
+      "type": "date"
+    },
+    "production_date": {
+      "type": "date"
+    },
+    "release_name": {
+      "type": "string"
+    },
+    "features": {
+      "type": "richtext"
+    }
+  }
+}
